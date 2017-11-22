@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/map.css"/>
+		<link rel="stylesheet" href="css/mycss.css" />
+		<link rel="stylesheet" href="css/index1.css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<script type="text/javascript" src="js/myjs.js" ></script>
+		<script src="js/echarts.js"></script>
+		<script src="js/change-map.js"></script>
+		<script type="text/javascript" src="js/hechuan.js" ></script>
+		<script type="text/javascript" src="js/Register.js" ></script>
+	</head>
+	<body>
+		<div>
+			<div class="header">
+				<div class="header_title">
+					<img src="img/logo.png" /><div><p class="first_title">合川区农业土地资源数据据服务平台</p><p class="second_title">测土配方施肥咨询系统</p></div>
+				</div>
+				<div class="header_menu">
+					<ul>
+						<li><a class="active">首页</a></li>
+						<li><a>地图资源</a></li>
+						<li><a>数据服务</a></li>
+						<li><a>关于我们</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="left" id="left">
+				<div class="left-style" style="margin-top: 150px;">
+					<span id="detail"><img src="img/icon_1_blue.png" id="img1" /><p id="p1" style="color: #00A5E4;">合川概况</p></span>
+				</div>
+				<div class="left-style">
+					<span id="farm"><img src="img/icon_2.png" id="img2" /><p id="p2" style="color: gainsboro;">农业产业</p></span>
+				</div>
+				<div class="left-style">
+					<span id="soil"><img src="img/icon_3.png" id="img3" /><p id="p3" style="color: gainsboro;">合川土壤</p></span>
+				</div>
+				<div class="left-style">
+					<span id="manure"><img src="img/icon_4.png" id="img4" /><p id="p4" style="color: gainsboro;">施肥推荐</p></span>
+				</div>
+			</div>
+			<div class="medium">
+				<div class="medium-first">
+					<div class="medium-font">
+						<h4>合川概况</h4>
+						<h6>General situation of Hechuan</h6>
+					</div>
+					
+				</div>
+				<div class="medium-second" id="kind">
+					<span class="medium-border" id='detail-refer' style="background-color: #76C1DE;">整体分布</span>
+					<span class="medium-border" id='detail-query'>查询农业/经济情况</span>
+				</div>
+				<div class="medium-thrid">
+					<div id="detail-refer-content">
+						<p class="third-font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;合川是重庆的北大门，是规划中的重庆北部地区中心城市。
+					位于嘉陵江、渠江、涪江交汇处，扼川北水陆交通咽喉，是重庆与
+					资源丰富的川北地区相联的纽带，也是重庆资金技术集约发展的延
+					伸带，被誉为重庆通向四川北部、陕西、甘肃等大西北省区的"经济
+					走廊"。合川位于四川盆地东部、重庆主城区北部，距重庆58公里。
+					地理坐标在东经105°58'37"~106°40'37"、北纬29°51'02"~30°22'24"之间。
+					东临渝北区、岳池区，南靠北碚区、璧山区，西连铜梁、潼南区，北接武胜、蓬溪县。<br />
+
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;合川区辖3个街道、27个镇：合阳城街道、钓鱼城街道、南津街街道、大石镇、云门镇、盐井镇、草街镇、钱塘镇、沙鱼镇、官渡镇、涞滩镇、龙市镇、肖家镇、古楼镇、三庙镇、燕窝镇、二郎镇、龙凤镇、太和镇、隆兴镇、铜溪镇、渭沱镇、双凤镇、狮滩镇、清平镇、土场镇、小沔镇、三汇镇、香龙镇、双槐镇。</p>
+					
+					</div>
+					<div id="detail-query-content" class="medium-class">
+						<div>
+							乡镇名称：
+							<select>
+								<option>1</option>
+							</select>
+						</div>
+						<div>
+							乡镇名称：
+							<select>
+								<option>1</option>
+							</select>
+						</div>
+						<div>
+							乡镇名称：
+							<select>
+								<option>1</option>
+							</select>
+						</div><div>
+							乡镇名称：
+							<select>
+								<option>1</option>
+							</select>
+						</div>
+					</div>
+					<div id="farm-content">
+						<p></p>
+					</div>
+					
+					
+				</div>
+			</div>
+			<div class="right">
+				<div class="map" id="map"></div>
+			</div>
+			<div class="return" id="return">
+				<img src="img/return.png" style="vertical-align: middle;padding-right: 10px;"/>
+				<span style="color: #FFFFFF; font-size: 24px;vertical-align: middle;">返回</span>
+			</div>
+		</div>
+	</body>
+</html>
